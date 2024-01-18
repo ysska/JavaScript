@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control Statements</title>
+
+</head>
+
+<body>
+
+<p> please input a number </p>
+<input id="x" />
+<p> please input a number </p>
+<input id="y" />
+<p> please input a number </p>
+<input id="z" />
+<input type="submit" valuee="z" onclic="myFunction()"/>
+
+<h5 id="result"></h5>
+
+<script>
+// check if the numbers are equal
+function myFunction (){
+let x = prompt ("enter 1st number");
+let y = prompt ("enter 2nd number");
+let z = prompt ("enter 3rd number");
+
+document.getElementById("endresult").innerHTML = if (x !== y && y !== z); {
+	result = "numbers are not equal"; // check if x y & z are not equal
+	}
+document.getElementById("endresult").innerHTML = else if (x == y && y == z); {
+	result = "numbers are qual"; // check if x y & z are equal
+	}
+document.getElementById("endresult").innerHTML = else; {
+	result = "Neither all are equal or different"; // check if x y & z are neither equal or different 
+	}
+	}
+
+
+</script>
+
+</body> 
+</html>

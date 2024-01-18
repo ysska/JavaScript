@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tests</title>
+
+
+	
+</head>
+
+<body>
+
+<script>
+
+const array = [25, 14, 56, 15, 36, 56, 77, 18, 29, 49];
+array.sort(function(a, b){return a-b});
+array.sort(function(a, b){return b-a});
+console.log("Original Array: [" + array + "]"); // display original array order 
+console.log("Maximum value for the above array = " + array[0]); // display max value
+console.log("Minimum value for the above array = " + array[array.length-1]); // display mix value
+
+</script>
+
+
+</body> 
+</html>

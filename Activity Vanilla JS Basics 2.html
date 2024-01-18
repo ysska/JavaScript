@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Activity 2 - Vanilla JS Basics</title>
+</head>
+
+<body>
+
+<p> please input a number </p>
+<input id="x" />
+<p> please input a number </p>
+<input id="y" />
+<input type="submit" value="submit" onclick="myFunction()"/>
+<p id="output"> </p>
+
+<script>
+function myFunction() {
+let x = document.getElementById ("x").value;
+let y = document.getElementById ("y").value;
+document.getElementById("output").innerHTML = x / y; 
+}
+</script>
+
+</body> 
+</html>

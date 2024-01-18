@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tests</title>
+
+</head>
+
+<body>
+
+<script>
+
+// program to find the factorial of a number
+
+// variable number can be different 
+const n = parseInt(prompt('Enter a number: '));
+
+// declaring a function
+
+// checking if number is negative
+if (n < 0) {
+    console.log('The factorial is not defined for negative numbers'); // display the result
+}
+
+// if number is 0
+else if (n === 0) {
+    console.log(`The factorial of ${n} is 1.`); // display the result
+}
+
+// if number is positive
+else {
+    let fact = 1;
+    for (i = 1; i <= n; i++) {
+        fact *= i;
+    }
+    console.log(`The factorial of ${n} is ${fact}.`); // display the result
+}
+
+
+</script>
+
+</body>
+</html>
